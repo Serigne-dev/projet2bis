@@ -55,6 +55,7 @@ nav a{
 
 .sinscrire{
 	padding-top: 15px;
+	color: blue;
 }
 
 #filtres{
@@ -174,7 +175,7 @@ button{
 	box-shadow: 2px 5px 5px grey;	
 	flex: 1;
 	padding: 5px 5px 0px 5px;
-	margin: 0px 5px 0px 5px;
+	margin: 0px 15px 0px 15px;
 }
 
 #hebergements2{
@@ -188,7 +189,7 @@ button{
 	box-shadow: 2px 5px 5px grey;
 	flex: 1;
 	padding: 5px 5px 0px 5px;
-	margin: 0px 5px 0px 5px;
+	margin: 0px 15px 0px 15px;
 }
 
 #hebergements1 img{
@@ -333,6 +334,7 @@ footer{
 		order: 2;
 		width: 100%;
 	}
+	
 
 	#filtres{
 		flex-wrap: wrap;
