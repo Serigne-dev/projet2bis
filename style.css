@@ -36,6 +36,15 @@ header{
 	padding-top: 20px;
 }
 
+header li:hover{
+	border-top: 2px solid #0065FC;
+	color: #0065FC;
+}
+
+header a:hover{
+	color: #0065FC;
+}
+
 nav{
 	display: flex;
 }
@@ -54,10 +63,6 @@ nav a{
 	color: black;
 }
 
-nav a:hover{ 
-   text-decoration: underline;
-   color: #0065FC;
-}
 
 .sinscrire{
 	color: #0065FC;
@@ -344,9 +349,22 @@ footer{
 	}
 
 	nav ul {
-		flex: 1;
-	}
-	
+    line-height: 65px;
+  	}
+
+  	nav li {
+    border-bottom: 2px solid #a3a3a3;
+    padding: 0;
+    flex: 1;
+    text-align: center;
+  	}
+
+ 	header li:hover {
+    border-bottom: 2px solid #0065fc;
+    border-top: 0px solid #0065fc;
+    color: #0065fc;
+    }
+
 	#filtres{
 		flex-wrap: wrap;
 	}
