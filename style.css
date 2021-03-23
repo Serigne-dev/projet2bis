@@ -51,11 +51,17 @@ nav li{
 
 nav a{
 	text-decoration: none;
+	color: black;
+}
+
+nav a:hover{ 
+   text-decoration: underline;
+   color: #0065FC;
 }
 
 .sinscrire{
-	padding-top: 15px;
-	color: blue;
+	color: #0065FC;
+	font-weight: bold;
 }
 
 #filtres{
@@ -144,7 +150,6 @@ button{
 	display: flex;	
 	justify-content: space-between;
 	width: 100%;
-	padding: 15px 15px 15px 15px;
 }
 
 #hebergements{
@@ -152,7 +157,7 @@ button{
 	width: 65%;
 	background-color: #F2F2F2;
 	padding: 20px 20px 20px 20px;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 
 #hebergements a{
@@ -171,11 +176,11 @@ button{
 
 #hebergements1 div{
 	background-color: white;
-	border-radius: 20px;
+	border-radius: 10px;
 	box-shadow: 2px 5px 5px grey;	
 	flex: 1;
 	padding: 5px 5px 0px 5px;
-	margin: 0px 15px 0px 15px;
+	margin: 5px 20px 5px 20px;
 }
 
 #hebergements2{
@@ -185,32 +190,32 @@ button{
 
 #hebergements2 div{
 	background-color: white;
-	border-radius: 20px;
+	border-radius: 10px;
 	box-shadow: 2px 5px 5px grey;
 	flex: 1;
 	padding: 5px 5px 0px 5px;
-	margin: 0px 15px 0px 15px;
+	margin: 5px 20px 5px 20px;
 }
 
 #hebergements1 img{
 	width: 100%;
 	height: 120px;
-	border-top-right-radius: 20px 20px;
-	border-top-left-radius: 20px 20px;
+	border-top-right-radius: 10px 10px;
+	border-top-left-radius: 10px 10px;
 	object-fit: cover;	
 }
 
 #hebergements2 img{
 	width: 100%;
 	height: 120px;
-	border-top-right-radius: 20px 20px;
-	border-top-left-radius: 20px 20px;
+	border-top-right-radius: 10px 10px;
+	border-top-left-radius: 10px 10px;
 	object-fit: cover;
 }
 
 aside{
 	background-color: #F2F2F2;
-	border-radius: 20px;
+	border-radius: 10px;
 	width: 30%;
 }
 
@@ -219,16 +224,16 @@ aside a{
 	display: flex;
 	color: black;
 	box-shadow: 2px 5px 5px grey;
-	border-radius: 20px;
+	border-radius: 10px;
 	background-color: white;
 	margin: 20px 20px 20px 20px;
 }
 
 aside img{
-	width: 100%;
+	width: 30% !important;
 	height: 130px;
-	border-top-left-radius: 20px 20px;
-	border-bottom-left-radius: 20px 20px;
+	border-top-left-radius: 10px 10px;
+	border-bottom-left-radius: 10px 10px;
 	padding: 5px 15px 5px 5px;
 	object-fit: cover;
 }
@@ -270,7 +275,11 @@ aside h1{
 
 #activites figure{
 	box-shadow: 2px 5px 5px grey;
-	border-radius: 20px;
+	border-radius: 10px;
+}
+
+.doublecard{
+	padding: 0px 0px 5px 0px;
 }
 
 #vieuxport img{
@@ -283,7 +292,7 @@ aside h1{
 
 #vieuxport{
 	box-shadow: 2px 5px 5px grey;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 
 #parc img{
@@ -307,7 +316,7 @@ aside h1{
 }
 
 #activites div{
-	width: 24%;
+	width: 25%;
 }
 
 footer{
@@ -326,7 +335,6 @@ footer{
 
 @media all and (max-width: 768px){
 	header{
-		flex-direction: column;
 		width: auto;
 	}
 
@@ -334,12 +342,14 @@ footer{
 		order: 2;
 		width: 100%;
 	}
-	
 
+	nav ul {
+		flex: 1;
+	}
+	
 	#filtres{
 		flex-wrap: wrap;
 	}
-
 
 	#section1 div{
 		flex-wrap: wrap;
