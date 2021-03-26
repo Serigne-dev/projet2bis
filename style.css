@@ -20,8 +20,7 @@ h2{
 	text-decoration: none;
 }
 
-header{
-	margin: 0 20px; 
+header{ 
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -350,7 +349,7 @@ footer{
 
 	nav ul {
     line-height: 65px;
-    width: 50%;
+    width: 100%;
   	}
 
   	nav li {
