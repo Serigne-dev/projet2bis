@@ -31,7 +31,6 @@ header{
 	height: auto;
 	width: 90px;
 	margin-right: auto;
-	align-self: flex-end;
 }
 
 header li:hover{
@@ -73,6 +72,7 @@ nav a{
 	align-items: center;
 	font-weight: bold;
 	flex-wrap: wrap;
+
 }
 
 .fa-map-marker-alt{
@@ -87,6 +87,7 @@ nav a{
 input{
 	border: solid #F2F2F2 1px;
 	padding: 11px 10px 10px 10px;
+	font-weight: bold;
 }
 
 button{
