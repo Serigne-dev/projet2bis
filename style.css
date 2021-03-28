@@ -263,13 +263,21 @@ aside img{
 	object-fit: cover;
 }
 
-aside .fas{
+aside .fa-star{
 	padding-top: 50px;
 }
 
 aside h2{
 	padding-left: 20px;
 	padding-top: 20px;
+}
+
+#populaire-titre{
+	display: flex;
+	flex-direction: row!important;
+	justify-content:space-between;
+	align-items: center;
+	margin-right: 20px;
 }
 
 .cards img{
