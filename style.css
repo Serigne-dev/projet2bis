@@ -20,9 +20,14 @@ h2{
 	text-decoration: none;
 }
 
+h3{
+	font-size: 0.9em;
+	margin: 5px 0px 0px 5px;
+}
+
 #section3 h3{
 	padding-left: 10px;
-	
+	padding-bottom: 5px;
 }
 
 header{ 
@@ -107,8 +112,12 @@ button{
 	margin-left: -5px;
 }
 
+#searchresponsive{
+	display: none;
+}
+
 .filtreelement{
-	margin-left: 40px;
+	margin:5px 0px 5px 20px;
 	border: solid #F2F2F2;
 	border-radius: 25px;
 }
@@ -156,6 +165,11 @@ button{
 	padding: 2px 5px 2px 5px;
 }
 
+#section1 p{
+	margin: 5px 0px 5px 5px;
+	font-size: 0.9em;
+}
+
 #section2{
 	display: flex;	
 	justify-content: space-between;
@@ -190,7 +204,7 @@ button{
 	box-shadow: 2px 5px 5px grey;	
 	flex: 1;
 	padding: 5px 5px 0px 5px;
-	margin: 5px 20px 5px 20px;
+	margin: 5px 20px 5px 0px;
 }
 
 #hebergements2{
@@ -204,7 +218,7 @@ button{
 	box-shadow: 2px 5px 5px grey;
 	flex: 1;
 	padding: 5px 5px 0px 5px;
-	margin: 5px 20px 5px 20px;
+	margin: 5px 20px 5px 0px;
 }
 
 #hebergements1 img{
@@ -229,6 +243,7 @@ aside{
 	width: 30%;
 }
 
+
 aside a{
 	text-decoration: none;
 	display: flex;
@@ -248,9 +263,13 @@ aside img{
 	object-fit: cover;
 }
 
+aside .fas{
+	padding-top: 50px;
+}
 
-aside h1{
-	padding-left: 35px;
+aside h2{
+	padding-left: 20px;
+	padding-top: 20px;
 }
 
 .cards img{
@@ -266,6 +285,9 @@ aside h1{
 	color: #F2F2F2;
 }
 
+.first-star{
+	margin-left: 5px;
+}
 
 #section3{
 	padding: 20px 20px 50px 20px;
@@ -354,25 +376,45 @@ footer{
 	}
 
 	nav ul {
-    line-height: 65px;
-    width: 100%;
-  	}
+		line-height: 65px;
+		width: 100%;
+		padding: 0;
+	}
 
-  	nav li {
-    border-bottom: 2px solid #a3a3a3;
-    padding: 0;
-    flex: 1;
-    text-align: center;
-  	}
+	nav li {
+		border-bottom: 2px solid #a3a3a3;
+		padding: 0;
+		flex: 1;
+		text-align: center;
+		margin: 0;
+	}
 
- 	header li:hover {
-    border-bottom: 2px solid #0065fc;
-    border-top: 0px solid #0065fc;
-    color: #0065fc;
-    }
+	header li:hover {
+		border-bottom: 2px solid #0065fc;
+		border-top: 0px solid #0065fc;
+		color: #0065fc;
+	}
 
 	#filtres{
 		flex-wrap: wrap;
+	}
+
+	#recherche button{
+		display: none;
+	}
+
+	#searchresponsive{
+		display: block;
+		display: initial;
+		color: white;
+		background-color: blue;
+		font-weight: bold;
+		font-size: 1em;
+		border: none;
+		padding: 10px 10px 10px 10px;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		margin-left: -5px;
 	}
 
 	#section1 div{
@@ -394,7 +436,7 @@ footer{
 	#hebergements1{
 		flex-direction: column;
 		width: 100%;
-		}
+	}
 
 	#hebergements2{
 		flex-direction: column;
