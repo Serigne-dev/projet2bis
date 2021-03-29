@@ -316,10 +316,17 @@ aside h2{
 #activites figure{
 	box-shadow: 2px 5px 5px grey;
 	border-radius: 10px;
+	margin: 0px;
+	height: 50%;
+	height: calc(50% - 4px)
+}
+
+#activites figure:first-child {
+    margin-bottom: 8px;
 }
 
 .doublecard{
-	padding: 0px 0px 5px 0px;
+	
 }
 
 #vieuxport img{
@@ -357,6 +364,7 @@ aside h2{
 
 #activites div{
 	width: 25%;
+	margin: 0px 8px;
 }
 
 footer{
